@@ -28,7 +28,7 @@ function guardRoute (to, from, next) {
  */
 const router = new Router({
   base: '/example',
-  mode: 'history',
+  mode: 'hash',
   routes: routes.map(route => ({
     name: route.name,
     path: route.path,
